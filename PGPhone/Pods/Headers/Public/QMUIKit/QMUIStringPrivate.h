@@ -1,0 +1,1 @@
+../../../QMUIKit/QMUIKit/UIKitExtensions/QMUIStringPrivate.h

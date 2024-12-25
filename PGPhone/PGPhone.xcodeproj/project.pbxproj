@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D1EC248C8F3936D206F731 /* libPods-PGPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E799AC55909A8E4CC4DF2897 /* libPods-PGPhone.a */; };
+		E5C3ACF82D19078A002116BF /* PGPFeedbackAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3ACF52D19078A002116BF /* PGPFeedbackAlertView.m */; };
+		E5C3ACF92D19078A002116BF /* PGPFeedbackAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C3ACF62D19078A002116BF /* PGPFeedbackAlertView.xib */; };
+		F71F58262C2289D400DF71F9 /* PGPVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F58242C2289D400DF71F9 /* PGPVersionViewController.m */; };
+		F71F58272C2289D400DF71F9 /* PGPVersionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71F58252C2289D400DF71F9 /* PGPVersionViewController.xib */; };
+		F71F582A2C22A48000DF71F9 /* PGPVersionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F58292C22A48000DF71F9 /* PGPVersionItem.m */; };
+		F745B23C2BC3E52800B95C17 /* PGPHeaderBackTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F745B23B2BC3E52800B95C17 /* PGPHeaderBackTableView.m */; };
+		F75DE8072C1A920300573FF0 /* NSDate+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = F75DE8062C1A920300573FF0 /* NSDate+WX.m */; };
+		F78DC3202BDA277100A8511E /* PGPDeviceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F78DC31F2BDA277100A8511E /* PGPDeviceItem.m */; };
+		F7A450F32BABCFE5007A68BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A450F22BABCFE5007A68BE /* AppDelegate.m */; };
+		F7A450FE2BABCFE7007A68BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A450FD2BABCFE7007A68BE /* Assets.xcassets */; };
+		F7A451012BABCFE7007A68BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A450FF2BABCFE7007A68BE /* LaunchScreen.storyboard */; };
+		F7A451042BABCFE7007A68BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451032BABCFE7007A68BE /* main.m */; };
+		F7A451222BABD73E007A68BE /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4510F2BABD73E007A68BE /* CustomViewController.m */; };
+		F7A451232BABD73E007A68BE /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451112BABD73E007A68BE /* CustomNavigationController.m */; };
+		F7A451252BABD73E007A68BE /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451152BABD73E007A68BE /* NSString+Base64.m */; };
+		F7A451262BABD73E007A68BE /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451182BABD73E007A68BE /* MF_Base64Additions.m */; };
+		F7A451272BABD73E007A68BE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4511A2BABD73E007A68BE /* NSData+Base64.m */; };
+		F7A451282BABD73E007A68BE /* keyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4511D2BABD73E007A68BE /* keyChain.m */; };
+		F7A451292BABD73E007A68BE /* VLToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451202BABD73E007A68BE /* VLToast.m */; };
+		F7A4512E2BABD7D9007A68BE /* PGPHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4512A2BABD7D9007A68BE /* PGPHTTPManager.m */; };
+		F7A4512F2BABD7D9007A68BE /* NSObject+NetAssisant.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4512C2BABD7D9007A68BE /* NSObject+NetAssisant.m */; };
+		F7A451332BAC06B2007A68BE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451312BAC06B2007A68BE /* MainViewController.m */; };
+		F7A451342BAC06B2007A68BE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A451322BAC06B2007A68BE /* MainViewController.xib */; };
+		F7A451412BAC09DB007A68BE /* UIView+LL_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451362BAC09DB007A68BE /* UIView+LL_Config.m */; };
+		F7A451422BAC09DB007A68BE /* LLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451382BAC09DB007A68BE /* LLNavigationController.m */; };
+		F7A451432BAC09DB007A68BE /* LLBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A451392BAC09DB007A68BE /* LLBarButtonItem.m */; };
+		F7A451442BAC09DB007A68BE /* WXAppDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4513A2BAC09DB007A68BE /* WXAppDevice.m */; };
+		F7A451452BAC09DB007A68BE /* LLNavgationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4513B2BAC09DB007A68BE /* LLNavgationBarView.m */; };
+		F7B616A42BB17FBC0082954D /* DesignImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6169D2BB17FBC0082954D /* DesignImageView.m */; };
+		F7B616A52BB17FBC0082954D /* DesingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6169E2BB17FBC0082954D /* DesingTextField.m */; };
+		F7B616A62BB17FBC0082954D /* DesignButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6169F2BB17FBC0082954D /* DesignButton.m */; };
+		F7B616A72BB17FBC0082954D /* UIView+Design.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B616A02BB17FBC0082954D /* UIView+Design.m */; };
+		F7B616A82BB17FBC0082954D /* DesignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B616A12BB17FBC0082954D /* DesignLabel.m */; };
+		F7E2C75F2C193DED00AA9574 /* PGPAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C75E2C193DED00AA9574 /* PGPAppContext.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		246EA14DDAC5814826DA94F8 /* Pods-PGPhone.release_prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGPhone.release_prod.xcconfig"; path = "Target Support Files/Pods-PGPhone/Pods-PGPhone.release_prod.xcconfig"; sourceTree = "<group>"; };
+		72C83AB2F2CA0BBA5812C501 /* Pods-PGPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGPhone.debug.xcconfig"; path = "Target Support Files/Pods-PGPhone/Pods-PGPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5942D53F0B8B0706B019CD /* Pods-PGPhone.release_dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGPhone.release_dev.xcconfig"; path = "Target Support Files/Pods-PGPhone/Pods-PGPhone.release_dev.xcconfig"; sourceTree = "<group>"; };
+		AE0E833D8E75D7BBC2AFBF01 /* Pods-PGPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGPhone.release.xcconfig"; path = "Target Support Files/Pods-PGPhone/Pods-PGPhone.release.xcconfig"; sourceTree = "<group>"; };
+		D559860E39B6E634BCF3E286 /* Pods-PGPhone.debug_prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGPhone.debug_prod.xcconfig"; path = "Target Support Files/Pods-PGPhone/Pods-PGPhone.debug_prod.xcconfig"; sourceTree = "<group>"; };
+		E5C3ACF42D19078A002116BF /* PGPFeedbackAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGPFeedbackAlertView.h; sourceTree = "<group>"; };
+		E5C3ACF52D19078A002116BF /* PGPFeedbackAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGPFeedbackAlertView.m; sourceTree = "<group>"; };
+		E5C3ACF62D19078A002116BF /* PGPFeedbackAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGPFeedbackAlertView.xib; sourceTree = "<group>"; };
+		E799AC55909A8E4CC4DF2897 /* libPods-PGPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGPhone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71F58232C2289D400DF71F9 /* PGPVersionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGPVersionViewController.h; sourceTree = "<group>"; };
+		F71F58242C2289D400DF71F9 /* PGPVersionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGPVersionViewController.m; sourceTree = "<group>"; };
+		F71F58252C2289D400DF71F9 /* PGPVersionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PGPVersionViewController.xib; sourceTree = "<group>"; };
+		F71F58282C22A48000DF71F9 /* PGPVersionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGPVersionItem.h; sourceTree = "<group>"; };
+		F71F58292C22A48000DF71F9 /* PGPVersionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGPVersionItem.m; sourceTree = "<group>"; };
+		F745B23A2BC3E52800B95C17 /* PGPHeaderBackTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGPHeaderBackTableView.h; sourceTree = "<group>"; };
+		F745B23B2BC3E52800B95C17 /* PGPHeaderBackTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGPHeaderBackTableView.m; sourceTree = "<group>"; };
+		F75DE8052C1A920300573FF0 /* NSDate+WX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WX.h"; sourceTree = "<group>"; };
+		F75DE8062C1A920300573FF0 /* NSDate+WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WX.m"; sourceTree = "<group>"; };
+		F78DC31C2BD9F4B600A8511E /* PGPAppDataMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGPAppDataMacros.h; sourceTree = "<group>"; };
+		F78DC31E2BDA277100A8511E /* PGPDeviceItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGPDeviceItem.h; sourceTree = "<group>"; };
+		F78DC31F2BDA277100A8511E /* PGPDeviceItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGPDeviceItem.m; sourceTree = "<group>"; };
+		F7A450EE2BABCFE5007A68BE /* PGPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A450F12BABCFE5007A68BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7A450F22BABCFE5007A68BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7A450FD2BABCFE7007A68BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A451002BABCFE7007A68BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7A451022BABCFE7007A68BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A451032BABCFE7007A68BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7A4510E2BABD73E007A68BE /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		F7A4510F2BABD73E007A68BE /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		F7A451112BABD73E007A68BE /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		F7A451122BABD73E007A68BE /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		F7A451152BABD73E007A68BE /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		F7A451162BABD73E007A68BE /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		F7A451172BABD73E007A68BE /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		F7A451182BABD73E007A68BE /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
+		F7A451192BABD73E007A68BE /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		F7A4511A2BABD73E007A68BE /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		F7A4511C2BABD73E007A68BE /* keyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyChain.h; sourceTree = "<group>"; };
+		F7A4511D2BABD73E007A68BE /* keyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keyChain.m; sourceTree = "<group>"; };
+		F7A4511F2BABD73E007A68BE /* VLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLToast.h; sourceTree = "<group>"; };
+		F7A451202BABD73E007A68BE /* VLToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLToast.m; sourceTree = "<group>"; };
+		F7A4512A2BABD7D9007A68BE /* PGPHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGPHTTPManager.m; sourceTree = "<group>"; };
+		F7A4512B2BABD7D9007A68BE /* NSObject+NetAssisant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NetAssisant.h"; sourceTree = "<group>"; };
+		F7A4512C2BABD7D9007A68BE /* NSObject+NetAssisant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NetAssisant.m"; sourceTree = "<group>"; };
+		F7A4512D2BABD7D9007A68BE /* PGPHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGPHTTPManager.h; sourceTree = "<group>"; };
+		F7A451302BAC06B2007A68BE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F7A451312BAC06B2007A68BE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F7A451322BAC06B2007A68BE /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F7A451362BAC09DB007A68BE /* UIView+LL_Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LL_Config.m"; sourceTree = "<group>"; };
+		F7A451372BAC09DB007A68BE /* LLNavgationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNavgationBarView.h; sourceTree = "<group>"; };
+		F7A451382BAC09DB007A68BE /* LLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNavigationController.m; sourceTree = "<group>"; };
+		F7A451392BAC09DB007A68BE /* LLBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBarButtonItem.m; sourceTree = "<group>"; };
+		F7A4513A2BAC09DB007A68BE /* WXAppDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAppDevice.m; sourceTree = "<group>"; };
+		F7A4513B2BAC09DB007A68BE /* LLNavgationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNavgationBarView.m; sourceTree = "<group>"; };
+		F7A4513C2BAC09DB007A68BE /* UIView+LL_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LL_Config.h"; sourceTree = "<group>"; };
+		F7A4513D2BAC09DB007A68BE /* WXAppDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppDevice.h; sourceTree = "<group>"; };
+		F7A4513E2BAC09DB007A68BE /* LLBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBarButtonItem.h; sourceTree = "<group>"; };
+		F7A4513F2BAC09DB007A68BE /* LLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNavigationController.h; sourceTree = "<group>"; };
+		F7A451402BAC09DB007A68BE /* LLNavgationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNavgationBar.h; sourceTree = "<group>"; };
+		F7B6169A2BB17FBC0082954D /* DesignLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignLabel.h; sourceTree = "<group>"; };
+		F7B6169B2BB17FBC0082954D /* UIView+Design.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Design.h"; sourceTree = "<group>"; };
+		F7B6169C2BB17FBC0082954D /* DesignButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignButton.h; sourceTree = "<group>"; };
+		F7B6169D2BB17FBC0082954D /* DesignImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignImageView.m; sourceTree = "<group>"; };
+		F7B6169E2BB17FBC0082954D /* DesingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesingTextField.m; sourceTree = "<group>"; };
+		F7B6169F2BB17FBC0082954D /* DesignButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignButton.m; sourceTree = "<group>"; };
+		F7B616A02BB17FBC0082954D /* UIView+Design.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Design.m"; sourceTree = "<group>"; };
+		F7B616A12BB17FBC0082954D /* DesignLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignLabel.m; sourceTree = "<group>"; };
+		F7B616A22BB17FBC0082954D /* DesignImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignImageView.h; sourceTree = "<group>"; };
+		F7B616A32BB17FBC0082954D /* DesingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesingTextField.h; sourceTree = "<group>"; };
+		F7E2C75D2C193DED00AA9574 /* PGPAppContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGPAppContext.h; sourceTree = "<group>"; };
+		F7E2C75E2C193DED00AA9574 /* PGPAppContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGPAppContext.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A450EB2BABCFE5007A68BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D1EC248C8F3936D206F731 /* libPods-PGPhone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADF6D349B0399AE848AE6D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E799AC55909A8E4CC4DF2897 /* libPods-PGPhone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F42F1B753D3F1AE2440F0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C83AB2F2CA0BBA5812C501 /* Pods-PGPhone.debug.xcconfig */,
+				AE0E833D8E75D7BBC2AFBF01 /* Pods-PGPhone.release.xcconfig */,
+				D559860E39B6E634BCF3E286 /* Pods-PGPhone.debug_prod.xcconfig */,
+				8D5942D53F0B8B0706B019CD /* Pods-PGPhone.release_dev.xcconfig */,
+				246EA14DDAC5814826DA94F8 /* Pods-PGPhone.release_prod.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5C3ACF72D19078A002116BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3ACF42D19078A002116BF /* PGPFeedbackAlertView.h */,
+				E5C3ACF52D19078A002116BF /* PGPFeedbackAlertView.m */,
+				E5C3ACF62D19078A002116BF /* PGPFeedbackAlertView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F75DE8042C1A91C800573FF0 /* Categray */ = {
+			isa = PBXGroup;
+			children = (
+				F75DE8052C1A920300573FF0 /* NSDate+WX.h */,
+				F75DE8062C1A920300573FF0 /* NSDate+WX.m */,
+			);
+			path = Categray;
+			sourceTree = "<group>";
+		};
+		F78DC31D2BDA275200A8511E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F71F58282C22A48000DF71F9 /* PGPVersionItem.h */,
+				F71F58292C22A48000DF71F9 /* PGPVersionItem.m */,
+				F78DC31E2BDA277100A8511E /* PGPDeviceItem.h */,
+				F78DC31F2BDA277100A8511E /* PGPDeviceItem.m */,
+				F7E2C75D2C193DED00AA9574 /* PGPAppContext.h */,
+				F7E2C75E2C193DED00AA9574 /* PGPAppContext.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7A450E52BABCFE5007A68BE = {
+			isa = PBXGroup;
+			children = (
+				F7A450F02BABCFE5007A68BE /* PGPhone */,
+				F7A450EF2BABCFE5007A68BE /* Products */,
+				89F42F1B753D3F1AE2440F0F /* Pods */,
+				2ADF6D349B0399AE848AE6D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A450EF2BABCFE5007A68BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A450EE2BABCFE5007A68BE /* PGPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A450F02BABCFE5007A68BE /* PGPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F7A450F12BABCFE5007A68BE /* AppDelegate.h */,
+				F7A450F22BABCFE5007A68BE /* AppDelegate.m */,
+				F7A4510B2BABD73E007A68BE /* Macros */,
+				F7A451212BABD73E007A68BE /* Request */,
+				F7A4510C2BABD73E007A68BE /* Utility */,
+				F7A4510A2BABD385007A68BE /* Pages */,
+				F7A450FD2BABCFE7007A68BE /* Assets.xcassets */,
+				F7A450FF2BABCFE7007A68BE /* LaunchScreen.storyboard */,
+				F7A451022BABCFE7007A68BE /* Info.plist */,
+				F7A451032BABCFE7007A68BE /* main.m */,
+			);
+			path = PGPhone;
+			sourceTree = "<group>";
+		};
+		F7A4510A2BABD385007A68BE /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3ACF72D19078A002116BF /* Views */,
+				F78DC31D2BDA275200A8511E /* Models */,
+				F745B23A2BC3E52800B95C17 /* PGPHeaderBackTableView.h */,
+				F745B23B2BC3E52800B95C17 /* PGPHeaderBackTableView.m */,
+				F71F58232C2289D400DF71F9 /* PGPVersionViewController.h */,
+				F71F58242C2289D400DF71F9 /* PGPVersionViewController.m */,
+				F71F58252C2289D400DF71F9 /* PGPVersionViewController.xib */,
+				F7A451302BAC06B2007A68BE /* MainViewController.h */,
+				F7A451312BAC06B2007A68BE /* MainViewController.m */,
+				F7A451322BAC06B2007A68BE /* MainViewController.xib */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		F7A4510B2BABD73E007A68BE /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				F78DC31C2BD9F4B600A8511E /* PGPAppDataMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		F7A4510C2BABD73E007A68BE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F75DE8042C1A91C800573FF0 /* Categray */,
+				F7B616992BB17FBC0082954D /* DesignView */,
+				F7A451352BAC09DB007A68BE /* LLNavgationBar */,
+				F7A4510D2BABD73E007A68BE /* customNavigationBar */,
+				F7A451142BABD73E007A68BE /* Base64 */,
+				F7A4511B2BABD73E007A68BE /* keyChain */,
+				F7A4511E2BABD73E007A68BE /* VLToast */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F7A4510D2BABD73E007A68BE /* customNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4510E2BABD73E007A68BE /* CustomNavigationController.h */,
+				F7A451112BABD73E007A68BE /* CustomNavigationController.m */,
+				F7A451122BABD73E007A68BE /* CustomViewController.h */,
+				F7A4510F2BABD73E007A68BE /* CustomViewController.m */,
+			);
+			path = customNavigationBar;
+			sourceTree = "<group>";
+		};
+		F7A451142BABD73E007A68BE /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				F7A451152BABD73E007A68BE /* NSString+Base64.m */,
+				F7A451162BABD73E007A68BE /* MF_Base64Additions.h */,
+				F7A451172BABD73E007A68BE /* NSData+Base64.h */,
+				F7A451182BABD73E007A68BE /* MF_Base64Additions.m */,
+				F7A451192BABD73E007A68BE /* NSString+Base64.h */,
+				F7A4511A2BABD73E007A68BE /* NSData+Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		F7A4511B2BABD73E007A68BE /* keyChain */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4511C2BABD73E007A68BE /* keyChain.h */,
+				F7A4511D2BABD73E007A68BE /* keyChain.m */,
+			);
+			path = keyChain;
+			sourceTree = "<group>";
+		};
+		F7A4511E2BABD73E007A68BE /* VLToast */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4511F2BABD73E007A68BE /* VLToast.h */,
+				F7A451202BABD73E007A68BE /* VLToast.m */,
+			);
+			path = VLToast;
+			sourceTree = "<group>";
+		};
+		F7A451212BABD73E007A68BE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4512D2BABD7D9007A68BE /* PGPHTTPManager.h */,
+				F7A4512A2BABD7D9007A68BE /* PGPHTTPManager.m */,
+				F7A4512B2BABD7D9007A68BE /* NSObject+NetAssisant.h */,
+				F7A4512C2BABD7D9007A68BE /* NSObject+NetAssisant.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F7A451352BAC09DB007A68BE /* LLNavgationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4513E2BAC09DB007A68BE /* LLBarButtonItem.h */,
+				F7A451392BAC09DB007A68BE /* LLBarButtonItem.m */,
+				F7A451402BAC09DB007A68BE /* LLNavgationBar.h */,
+				F7A451372BAC09DB007A68BE /* LLNavgationBarView.h */,
+				F7A4513B2BAC09DB007A68BE /* LLNavgationBarView.m */,
+				F7A4513F2BAC09DB007A68BE /* LLNavigationController.h */,
+				F7A451382BAC09DB007A68BE /* LLNavigationController.m */,
+				F7A4513C2BAC09DB007A68BE /* UIView+LL_Config.h */,
+				F7A451362BAC09DB007A68BE /* UIView+LL_Config.m */,
+				F7A4513D2BAC09DB007A68BE /* WXAppDevice.h */,
+				F7A4513A2BAC09DB007A68BE /* WXAppDevice.m */,
+			);
+			path = LLNavgationBar;
+			sourceTree = "<group>";
+		};
+		F7B616992BB17FBC0082954D /* DesignView */ = {
+			isa = PBXGroup;
+			children = (
+				F7B6169C2BB17FBC0082954D /* DesignButton.h */,
+				F7B6169F2BB17FBC0082954D /* DesignButton.m */,
+				F7B616A22BB17FBC0082954D /* DesignImageView.h */,
+				F7B6169D2BB17FBC0082954D /* DesignImageView.m */,
+				F7B6169A2BB17FBC0082954D /* DesignLabel.h */,
+				F7B616A12BB17FBC0082954D /* DesignLabel.m */,
+				F7B616A32BB17FBC0082954D /* DesingTextField.h */,
+				F7B6169E2BB17FBC0082954D /* DesingTextField.m */,
+				F7B6169B2BB17FBC0082954D /* UIView+Design.h */,
+				F7B616A02BB17FBC0082954D /* UIView+Design.m */,
+			);
+			path = DesignView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A450ED2BABCFE5007A68BE /* PGPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A451072BABCFE7007A68BE /* Build configuration list for PBXNativeTarget "PGPhone" */;
+			buildPhases = (
+				6314EC5CCB59098FA0275EDD /* [CP] Check Pods Manifest.lock */,
+				F7A450EA2BABCFE5007A68BE /* Sources */,
+				F7A450EB2BABCFE5007A68BE /* Frameworks */,
+				F7A450EC2BABCFE5007A68BE /* Resources */,
+				B89AFF0DD0EF338BA10E7731 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGPhone;
+			productName = PGPhone;
+			productReference = F7A450EE2BABCFE5007A68BE /* PGPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A450E62BABCFE5007A68BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F7A450ED2BABCFE5007A68BE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F7A450E92BABCFE5007A68BE /* Build configuration list for PBXProject "PGPhone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A450E52BABCFE5007A68BE;
+			productRefGroup = F7A450EF2BABCFE5007A68BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7A450ED2BABCFE5007A68BE /* PGPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A450EC2BABCFE5007A68BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71F58272C2289D400DF71F9 /* PGPVersionViewController.xib in Resources */,
+				F7A451012BABCFE7007A68BE /* LaunchScreen.storyboard in Resources */,
+				E5C3ACF92D19078A002116BF /* PGPFeedbackAlertView.xib in Resources */,
+				F7A451342BAC06B2007A68BE /* MainViewController.xib in Resources */,
+				F7A450FE2BABCFE7007A68BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6314EC5CCB59098FA0275EDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PGPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89AFF0DD0EF338BA10E7731 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PGPhone/Pods-PGPhone-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PGPhone/Pods-PGPhone-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PGPhone/Pods-PGPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A450EA2BABCFE5007A68BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A451412BAC09DB007A68BE /* UIView+LL_Config.m in Sources */,
+				F7A451262BABD73E007A68BE /* MF_Base64Additions.m in Sources */,
+				F7A451252BABD73E007A68BE /* NSString+Base64.m in Sources */,
+				F7A451422BAC09DB007A68BE /* LLNavigationController.m in Sources */,
+				F7A451432BAC09DB007A68BE /* LLBarButtonItem.m in Sources */,
+				F71F58262C2289D400DF71F9 /* PGPVersionViewController.m in Sources */,
+				F7A451452BAC09DB007A68BE /* LLNavgationBarView.m in Sources */,
+				F7A450F32BABCFE5007A68BE /* AppDelegate.m in Sources */,
+				F7A4512E2BABD7D9007A68BE /* PGPHTTPManager.m in Sources */,
+				E5C3ACF82D19078A002116BF /* PGPFeedbackAlertView.m in Sources */,
+				F78DC3202BDA277100A8511E /* PGPDeviceItem.m in Sources */,
+				F7A451332BAC06B2007A68BE /* MainViewController.m in Sources */,
+				F7A451442BAC09DB007A68BE /* WXAppDevice.m in Sources */,
+				F7A451222BABD73E007A68BE /* CustomViewController.m in Sources */,
+				F71F582A2C22A48000DF71F9 /* PGPVersionItem.m in Sources */,
+				F7A4512F2BABD7D9007A68BE /* NSObject+NetAssisant.m in Sources */,
+				F7A451282BABD73E007A68BE /* keyChain.m in Sources */,
+				F7A451272BABD73E007A68BE /* NSData+Base64.m in Sources */,
+				F75DE8072C1A920300573FF0 /* NSDate+WX.m in Sources */,
+				F7E2C75F2C193DED00AA9574 /* PGPAppContext.m in Sources */,
+				F745B23C2BC3E52800B95C17 /* PGPHeaderBackTableView.m in Sources */,
+				F7B616A82BB17FBC0082954D /* DesignLabel.m in Sources */,
+				F7A451292BABD73E007A68BE /* VLToast.m in Sources */,
+				F7A451232BABD73E007A68BE /* CustomNavigationController.m in Sources */,
+				F7B616A52BB17FBC0082954D /* DesingTextField.m in Sources */,
+				F7B616A42BB17FBC0082954D /* DesignImageView.m in Sources */,
+				F7A451042BABCFE7007A68BE /* main.m in Sources */,
+				F7B616A72BB17FBC0082954D /* UIView+Design.m in Sources */,
+				F7B616A62BB17FBC0082954D /* DesignButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7A450FF2BABCFE7007A68BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A451002BABCFE7007A68BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7A451052BABCFE7007A68BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7A451062BABCFE7007A68BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7A451082BABCFE7007A68BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C83AB2F2CA0BBA5812C501 /* Pods-PGPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"EnvironmentDev=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PGPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "掌御手机测试";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.pgphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7A451092BABCFE7007A68BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0E833D8E75D7BBC2AFBF01 /* Pods-PGPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"EnvironmentProd=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PGPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "掌御手机测试";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.pgphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7C6654B2BB6A068004C0289 /* Release_Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release_Prod;
+		};
+		F7C6654C2BB6A068004C0289 /* Release_Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246EA14DDAC5814826DA94F8 /* Pods-PGPhone.release_prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"EnvironmentProd=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PGPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "掌御手机测试";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.pgphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release_Prod;
+		};
+		F7C6654D2BB6A089004C0289 /* Release_Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release_Dev;
+		};
+		F7C6654E2BB6A089004C0289 /* Release_Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5942D53F0B8B0706B019CD /* Pods-PGPhone.release_dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"EnvironmentDev=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PGPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "掌御手机测试";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.pgphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release_Dev;
+		};
+		F7C6654F2BB6ACA4004C0289 /* Debug_Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug_Prod;
+		};
+		F7C665502BB6ACA4004C0289 /* Debug_Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D559860E39B6E634BCF3E286 /* Pods-PGPhone.debug_prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"EnvironmentProd=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PGPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "掌御手机测试";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要该权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.pgphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_Prod;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A450E92BABCFE5007A68BE /* Build configuration list for PBXProject "PGPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A451052BABCFE7007A68BE /* Debug */,
+				F7C6654F2BB6ACA4004C0289 /* Debug_Prod */,
+				F7A451062BABCFE7007A68BE /* Release */,
+				F7C6654D2BB6A089004C0289 /* Release_Dev */,
+				F7C6654B2BB6A068004C0289 /* Release_Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A451072BABCFE7007A68BE /* Build configuration list for PBXNativeTarget "PGPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A451082BABCFE7007A68BE /* Debug */,
+				F7C665502BB6ACA4004C0289 /* Debug_Prod */,
+				F7A451092BABCFE7007A68BE /* Release */,
+				F7C6654E2BB6A089004C0289 /* Release_Dev */,
+				F7C6654C2BB6A068004C0289 /* Release_Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7A450E62BABCFE5007A68BE /* Project object */;
+}

@@ -1,0 +1,1 @@
+../../../QMUIKit/QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellDataSource.h

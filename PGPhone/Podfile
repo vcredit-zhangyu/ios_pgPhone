@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '12.0'
+
+target 'PGPhone' do
+    pod 'AFNetworking', '~> 4.0.1'
+    #pod 'SDWebImage'
+    pod 'HexColors', '~> 2.3.0'
+    pod 'MJExtension'
+    pod 'MJRefresh'
+    pod 'IQKeyboardManager', '~> 6.5.5'
+    pod 'YYKit'
+    pod 'QMUIKit'
+end
